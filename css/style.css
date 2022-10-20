@@ -428,7 +428,8 @@ textarea::placeholder {
     
 .accept { 
     margin-top: 20px;
-    
+    display: flex;
+    font-size: 14px;
    
     }
 .label-text-checkbox{
@@ -464,12 +465,14 @@ textarea::placeholder {
     height: 15px;
     border-radius: 3px;
     display: flex;
-        
+    margin-right: 7px;
     }
 
 .accept input:checked + .checkbox {
+    justify-content:center;
     background: #2196F3;
-    border: 2px solid #2196F3;
+    border: none;
+   
     }
     
 .umovy-text{ 
