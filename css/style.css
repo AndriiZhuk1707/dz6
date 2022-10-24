@@ -404,7 +404,6 @@ address{
         border: 1px solid var(--focus-text-color);}
     
 .feedback{  
-    color:rgba(152, 150, 150, 0.5);
     resize: none;
     padding:10px 10px 10px 20px;
     height: 124px;
@@ -427,7 +426,9 @@ textarea::placeholder {
     
     
 .accept { 
-    margin-top: 20px;
+    
+    margin-top: 25px;
+    margin-left: 15px;
     display: flex;
     font-size: 14px;
    
@@ -445,7 +446,7 @@ textarea::placeholder {
     cursor: pointer;}
     
 .visually-hidden{ 
-
+    
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -459,7 +460,7 @@ textarea::placeholder {
 
 
 .checkbox{
-   
+ 
     border: 2px solid #212121;
     width: 16px;
     height: 15px;
@@ -467,6 +468,16 @@ textarea::placeholder {
     display: flex;
     margin-right: 7px;
     }
+
+.icon-checkbox {
+    
+   margin-top: -3px;
+   margin-right: -1px;
+   margin-bottom: -1px;
+    
+    
+}
+
 
 .accept input:checked + .checkbox {
     justify-content:center;
